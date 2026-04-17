@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speisekarte – Pizzeria Desirée Bad Homburg</title>
+  <meta name="description" content="Die vollständige Speisekarte der Pizzeria Desirée in Bad Homburg – Pizza, Pasta, Antipasti, Fleisch, Fisch, Desserts und mehr." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=IM+Fell+English:ital@0;1&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-script">Pizzeria</span>
+        <span class="logo-name">Desirée</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Startseite</a></li>
+        <li><a href="menu.html" class="nav-link active">Speisekarte</a></li>
+        <li><a href="index.html#ueber-uns" class="nav-link">Über uns</a></li>
+        <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+      </ul>
+      <a href="tel:+4961722352" class="nav-cta" id="reserve-btn-menu">Reservieren</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html" class="mobile-link">Startseite</a>
+      <a href="menu.html" class="mobile-link">Speisekarte</a>
+      <a href="index.html#ueber-uns" class="mobile-link">Über uns</a>
+      <a href="index.html#kontakt" class="mobile-link">Kontakt</a>
+      <a href="tel:+4961722352" class="mobile-link mobile-cta">☎ Reservieren</a>
+    </div>
+  </nav>
+
+  <!-- ========== MENU HERO ========== -->
+  <header class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay dark"></div>
+    <div class="page-hero-content">
+      <p class="hero-tagline">La nostra cucina</p>
+      <h1 class="hero-title">La Carta &mdash; <em>Speisekarte</em></h1>
+      <div class="hero-divider"><span>✦</span></div>
+      <p class="hero-subtitle">Unsere Pizzen haben einen Durchmesser von 30 cm &nbsp;·&nbsp; Alle Preise inkl. MwSt.</p>
+    </div>
+  </header>
+
+  <!-- ========== CATEGORY NAVIGATION ========== -->
+  <nav class="menu-cat-nav" id="menu-cat-nav">
+    <div class="menu-cat-inner">
+      <a href="#pizza"      class="cat-link" id="cat-pizza">Pizza</a>
+      <a href="#antipasti"  class="cat-link" id="cat-antipasti">Antipasti</a>
+      <a href="#pasta-tgw"  class="cat-link" id="cat-pasta-tgw">Teigwaren</a>
+      <a href="#pasta-reis" class="cat-link" id="cat-pasta-reis">Pasta &amp; Reis</a>
+      <a href="#manzo"      class="cat-link" id="cat-manzo">Vom Rind</a>
+      <a href="#vitello"    class="cat-link" id="cat-vitello">Vom Kalb</a>
+      <a href="#maiale"     class="cat-link" id="cat-maiale">Vom Schwein</a>
+      <a href="#griglia"    class="cat-link" id="cat-griglia">Grill</a>
+      <a href="#dalmare"    class="cat-link" id="cat-dalmare">Fisch &amp; Meer</a>
+      <a href="#suppen"     class="cat-link" id="cat-suppen">Suppen</a>
+      <a href="#kinder"     class="cat-link" id="cat-kinder">Kinder</a>
+      <a href="#dessert"    class="cat-link" id="cat-dessert">Dessert</a>
+      <a href="#extras"     class="cat-link" id="cat-extras">Extras</a>
+    </div>
+  </nav>
+
+  <!-- ========== MENU SECTIONS ========== -->
+  <main class="menu-main">
+
+    <!-- ── PIZZA ── -->
+    <section class="menu-section" id="pizza">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Dal Forno a Legna</p>
+          <h2 class="section-title"><em>Pizza</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Pizzen haben einen Durchmesser von 30 cm.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-p01"><div class="mi-info"><span class="mi-num">01</span><h3>Pizza Margherita</h3><p>Tomaten und Käse</p></div><span class="mi-price">6,00 €</span></div>
+          <div class="menu-item" id="mi-p02"><div class="mi-info"><span class="mi-num">02</span><h3>Pizza Salami</h3><p>Tomaten, Käse und Salami</p></div><span class="mi-price">7,00 €</span></div>
+          <div class="menu-item" id="mi-p03"><div class="mi-info"><span class="mi-num">03</span><h3>Pizza Gorgonzola</h3><p>Tomaten, Gorgonzola, Parmaschinken und frische Champignons</p></div><span class="mi-price">—</span></div>
+          <div class="menu-item" id="mi-p04"><div class="mi-info"><span class="mi-num">04</span><h3>Pizza Champignons</h3><p>Tomaten, Käse, Salami und Champignons</p></div><span class="mi-price">—</span></div>
+          <div class="menu-item" id="mi-p05"><div class="mi-info"><span class="mi-num">05</span><h3>Pizza Peperoni</h3><p>Tomaten, Käse, Salami, Champignons, milde Peperoni</p></div><span class="mi-price">8,50 €</span></div>
+          <div class="menu-item" id="mi-p06"><div class="mi-info"><span class="mi-num">06</span><h3>Pizza Paprika</h3><p>Tomaten, Käse, Salami, Champignons und Paprika</p></div><span class="mi-price">9,00 €</span></div>
+          <div class="menu-item" id="mi-p07"><div class="mi-info"><span class="mi-num">07</span><h3>Pizza Zwiebeln</h3><p>Tomaten, Käse, Salami, Champignons und Zwiebeln</p></div><span class="mi-price">9,00 €</span></div>
+          <div class="menu-item" id="mi-p08"><div class="mi-info"><span class="mi-num">08</span><h3>Pizza Marinara</h3><p>Tomaten, Käse, Krabben und frischer Knoblauch</p></div><span class="mi-price">11,50 €</span></div>
+          <div class="menu-item" id="mi-p09"><div class="mi-info"><span class="mi-num">09</span><h3>Pizza Quattro Stagioni</h3><p>Vier Jahreszeiten</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-p10"><div class="mi-info"><span class="mi-num">10</span><h3>Pizza Sardellen</h3><p>Tomaten, Käse, Salami, Champignons und Sardellen</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-p11"><div class="mi-info"><span class="mi-num">11</span><h3>Pizza Schinken</h3><p>Tomaten, Käse, Salami, Champignons und Schinken</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-p12"><div class="mi-info"><span class="mi-num">12</span><h3>Pizza alla Sarda</h3><p>Tomaten, Pecorino, Salsiccia</p></div><span class="mi-price">11,00 €</span></div>
+          <div class="menu-item" id="mi-p13"><div class="mi-info"><span class="mi-num">13</span><h3>Pizza al Tonno</h3><p>Tomaten, Käse, Zwiebeln und Thunfisch</p></div><span class="mi-price">11,00 €</span></div>
+          <div class="menu-item" id="mi-p14"><div class="mi-info"><span class="mi-num">14</span><h3>Pizza Rucola</h3><p>Rucola, Parmesan und Parmaschinken</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item featured" id="mi-p15"><div class="mi-info"><span class="mi-num">15</span><h3>Pizza Desirée <span class="badge">Chef's Special</span></h3><p>Mit frischem Gemüse</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-p16"><div class="mi-info"><span class="mi-num">16</span><h3>Pizza Ortolana</h3><p>Mit frischem Gemüse</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-p17"><div class="mi-info"><span class="mi-num">17</span><h3>Pizza Frutti di Mare</h3><p>Mit Meeresfrüchten und Knoblauch</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-p18"><div class="mi-info"><span class="mi-num">18</span><h3>Pizza Hawaii</h3><p>Tomaten, Käse, Schinken</p></div><span class="mi-price">9,00 €</span></div>
+          <div class="menu-item" id="mi-p19"><div class="mi-info"><span class="mi-num">19</span><h3>Pizza Spinaci e Mozzarella</h3><p>Tomaten, Käse, Spinat und Mozzarella</p></div><span class="mi-price">9,50 €</span></div>
+          <div class="menu-item" id="mi-p20"><div class="mi-info"><span class="mi-num">20</span><h3>Pizza Quattro Formaggi</h3><p>Mit vier Käsesorten</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-p21"><div class="mi-info"><span class="mi-num">21</span><h3>Pizza Caprese</h3><p>Mit Mozzarella, frischen Tomatenscheiben und Basilikum</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-p22"><div class="mi-info"><span class="mi-num">22</span><h3>Sucuk-Pizza</h3><p>Mit Tomaten, Käse und Sucuk</p></div><span class="mi-price">8,00 €</span></div>
+          <div class="menu-item" id="mi-p23"><div class="mi-info"><span class="mi-num">23</span><h3>Pizza Pompei</h3><p>Mit Tomaten, Käse, Peperoniwurst, Sardellen und roten Zwiebeln</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-p24"><div class="mi-info"><span class="mi-num">24</span><h3>Pizza Siciliana</h3><p>Mit Mozzarella, Thunfisch und frischen Auberginen (ohne Tomatensauce)</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-p25"><div class="mi-info"><span class="mi-num">25</span><h3>Pizza Mais &amp; Zwiebeln</h3><p>Tomaten, Käse, Sucuk, Mais und rote Zwiebeln</p></div><span class="mi-price">9,50 €</span></div>
+          <div class="menu-item" id="mi-p26"><div class="mi-info"><span class="mi-num">26</span><h3>Pizza Calabrese</h3><p>Tomaten, Käse, pikante Salsiccia und Chili</p></div><span class="mi-price">9,50 €</span></div>
+          <div class="menu-item" id="mi-pb1"><div class="mi-info"><span class="mi-num">—</span><h3>Pizzabrot mit Knoblauch und Salz</h3><p></p></div><span class="mi-price">6,00 €</span></div>
+          <div class="menu-item" id="mi-pb2"><div class="mi-info"><span class="mi-num">—</span><h3>Pizzabrot Calzone mit Mozzarella und Knoblauch</h3><p></p></div><span class="mi-price">6,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ANTIPASTI ── -->
+    <section class="menu-section alt" id="antipasti">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Starters</p>
+          <h2 class="section-title">Antipasti &amp; <em>Vorspeisen</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-a30"><div class="mi-info"><span class="mi-num">30</span><h3>Carpaccio vom Rind</h3><p>Hauchdünn geschnittenes Rindfleisch mit Parmesan und Rucola</p></div><span class="mi-price">15,00 €</span></div>
+          <div class="menu-item" id="mi-a31"><div class="mi-info"><span class="mi-num">31</span><h3>Caprese frische Tomaten</h3><p>Mozzarella, Basilikum</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-a32"><div class="mi-info"><span class="mi-num">32</span><h3>Antipasto Sardo</h3><p>Kalter Vorspeisenteller mit verschiedenen Sorten an Salami, Schinken und Käse</p></div><span class="mi-price">Preis nach Größe</span></div>
+          <div class="menu-item" id="mi-a33"><div class="mi-info"><span class="mi-num">33</span><h3>Antipasto Caldo</h3><p>Warmer Vorspeisenteller mit mediterranem Gemüse</p></div><span class="mi-price">Preis nach Größe</span></div>
+          <div class="menu-item" id="mi-a34"><div class="mi-info"><span class="mi-num">34</span><h3>Antipasto Terra e Mare</h3><p>Gemischter Vorspeisenteller mit Meeresfrüchten und mediterranem Gemüse</p></div><span class="mi-price">Preis nach Größe</span></div>
+          <div class="menu-item" id="mi-a35"><div class="mi-info"><span class="mi-num">35</span><h3>Insalata di Mare</h3><p>Meeresfrüchtesalat</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-a36"><div class="mi-info"><span class="mi-num">36</span><h3>Insalata di Polpi</h3><p>Tintenfischsalat</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-a37"><div class="mi-info"><span class="mi-num">37</span><h3>½ Insalata Italia o al Tono</h3><p>½ Italienischer Salat mit Schinken- und Käsestreifen oder mit Thunfisch</p></div><span class="mi-price">8,00 €</span></div>
+          <div class="menu-item" id="mi-a38"><div class="mi-info"><span class="mi-num">38</span><h3>Insalata Mista o Pomodori</h3><p>Gemischter Salat oder Tomatensalat mit Zwiebeln</p></div><span class="mi-price">7,00 €</span></div>
+          <div class="menu-item" id="mi-a39"><div class="mi-info"><span class="mi-num">39</span><h3>Insalata o al Tono</h3><p>Italienischer Salat mit Schinken- und Käsestreifen oder mit Thunfisch</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-a40"><div class="mi-info"><span class="mi-num">40</span><h3>Rucola e Parmigiano</h3><p>Rucolasalat und Parmesan</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-a41"><div class="mi-info"><span class="mi-num">41</span><h3>Vitello Tonnato</h3><p>Dünn geschnittenes Kalbsfleisch mit Thunfischsoße und Kapern</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-a43"><div class="mi-info"><span class="mi-num">43</span><h3>3 Bruschette</h3><p>Mit Tomaten, Knoblauch und Basilikum</p></div><span class="mi-price">5,00 €</span></div>
+          <div class="menu-item" id="mi-a44"><div class="mi-info"><span class="mi-num">44</span><h3>Insalata con Pollo</h3><p>Gemischter Salat mit gegrillter Hähnchenbrust</p></div><span class="mi-price">—</span></div>
+          <div class="menu-item" id="mi-a45"><div class="mi-info"><span class="mi-num">45</span><h3>Insalata Mista con Gamberetti</h3><p>Gemischter Salat mit Garnelen</p></div><span class="mi-price">—</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PASTA / TEIGWAREN ── -->
+    <section class="menu-section" id="pasta-tgw">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Pasta e Riso</p>
+          <h2 class="section-title"><em>Teigwaren</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-t50"><div class="mi-info"><span class="mi-num">50</span><h3>Spaghetti al Pesto</h3><p>Mit Basilikumpesto</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t51"><div class="mi-info"><span class="mi-num">51</span><h3>Spaghetti Marinara</h3><p>Mit Meeresfrüchten in Tomatensauce</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-t52"><div class="mi-info"><span class="mi-num">52</span><h3>Spaghetti Vongole Verace</h3><p>Mit frischen Venusmuscheln in Weißweinsauce</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-t53"><div class="mi-info"><span class="mi-num">53</span><h3>Spaghetti Cozze</h3><p>Mit Miesmuscheln in Tomatensauce</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-t54"><div class="mi-info"><span class="mi-num">54</span><h3>Spaghetti Verdura</h3><p>Mit frischem Gemüse</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item featured" id="mi-t55"><div class="mi-info"><span class="mi-num">55</span><h3>Spaghetti Carbonara <span class="badge">Klassiker</span></h3><p>Mit Speck, Ei und Parmesan in Sahnesauce</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-t56"><div class="mi-info"><span class="mi-num">56</span><h3>Spaghetti Puttanesca</h3><p>Mit Kapern und Oliven in pikanter Tomatensauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t57"><div class="mi-info"><span class="mi-num">57</span><h3>Spaghetti al Bolognese</h3><p>Mit Tomatensauce oder Bolognesesauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t58"><div class="mi-info"><span class="mi-num">58</span><h3>Spaghetti al Tonno</h3><p>Mit Thunfisch in Tomatensahnesauce</p></div><span class="mi-price">11,00 €</span></div>
+          <div class="menu-item" id="mi-t59"><div class="mi-info"><span class="mi-num">59</span><h3>Spaghetti Aglio e Olio e Gamberetti</h3><p>Mit Knoblauch, Olivenöl und Krabben</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-t60"><div class="mi-info"><span class="mi-num">60</span><h3>Spaghetti Primavera</h3><p>Mit frischen Cocktailtomaten, Basilikum und Mozzarella</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t61"><div class="mi-info"><span class="mi-num">61</span><h3>Fettuccine agli Scampi</h3><p>Bandnudeln mit Scampi in Tomatensauce</p></div><span class="mi-price">15,00 €</span></div>
+          <div class="menu-item" id="mi-t62"><div class="mi-info"><span class="mi-num">62</span><h3>Penne Quattro Formaggi</h3><p>Mit vier Käsesorten</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-t63"><div class="mi-info"><span class="mi-num">63</span><h3>Penne all'Arrabbiata</h3><p>Mit Knoblauch in pikanter Tomatensauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t64"><div class="mi-info"><span class="mi-num">64</span><h3>Penne Siciliana</h3><p>Mit Auberginen in pikanter Tomatensauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t65"><div class="mi-info"><span class="mi-num">65</span><h3>Penne Casa Mia</h3><p>Mit Schinken, Champignons und Erbsen in Tomatensauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-t66"><div class="mi-info"><span class="mi-num">66</span><h3>Penne Rucola e Gorgonzola</h3><p></p></div><span class="mi-price">—</span></div>
+          <div class="menu-item" id="mi-t67"><div class="mi-info"><span class="mi-num">67</span><h3>Gnocchi Ripieni con Gorgonzola</h3><p>Große gefüllte Gnocchi mit Spinat in Gorgonzolasauce</p></div><span class="mi-price">12,00 €</span></div>
+          <div class="menu-item" id="mi-t68"><div class="mi-info"><span class="mi-num">68</span><h3>Fettuccine al Salmone</h3><p>Bandnudeln mit Lachs in Tomatensauce</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-t69"><div class="mi-info"><span class="mi-num">69</span><h3>Fettuccine ai Porcini</h3><p>Bandnudeln mit Steinpilzen in Sahnesauce</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-t70"><div class="mi-info"><span class="mi-num">70</span><h3>Penne Pollo e Funghi</h3><p>Mit Hähnchen und frischen Champignons in Tomatensauce</p></div><span class="mi-price">11,50 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PASTA / PASTA UND REIS ── -->
+    <section class="menu-section alt" id="pasta-reis">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Pasta e Riso</p>
+          <h2 class="section-title">Pasta <em>und Reis</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-pr80"><div class="mi-info"><span class="mi-num">80</span><h3>Penne alla Chef</h3><p>Mit frischen Champignons und Kalbsfleisch in Béchamelsauce</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-pr81"><div class="mi-info"><span class="mi-num">81</span><h3>Tagliatelle alla Paesana</h3><p>Grüne Spinatbandnudeln mit Schinken, Erbsen und Champignons in Tomatensauce</p></div><span class="mi-price">11,00 €</span></div>
+          <div class="menu-item" id="mi-pr82"><div class="mi-info"><span class="mi-num">82</span><h3>Fettuccine con Crema di Tartufo</h3><p>Weiße Bandnudeln mit Trüffelcreme</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-pr83"><div class="mi-info"><span class="mi-num">83</span><h3>Fettuccine ai Funghi</h3><p>Weiße Bandnudeln mit frischen Champignons in Rahmsauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr84"><div class="mi-info"><span class="mi-num">84</span><h3>Gnocchi di Patate al Pomodoro</h3><p>Gnocchi in Tomatensauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr85"><div class="mi-info"><span class="mi-num">85</span><h3>Gnocchi alla Sorrentina</h3><p>Gnocchi mit Mozzarella in Bolognesesauce</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-pr86"><div class="mi-info"><span class="mi-num">86</span><h3>Pasta Mista</h3><p>Gemischter Nudelteller mit Penne Bolognese, Tortellini Panna und Tagliatelle Aglio e Olio</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-pr87"><div class="mi-info"><span class="mi-num">87</span><h3>Penne con Filetto e Pomodorini</h3><p>Mit frischen Cocktailtomaten und Filetstreifen</p></div><span class="mi-price">16,00 €</span></div>
+          <div class="menu-item" id="mi-pr88"><div class="mi-info"><span class="mi-num">88</span><h3>Tortellini alla Panna</h3><p>Tortellini mit Fleischfüllung in Schinkensahnesauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr89"><div class="mi-info"><span class="mi-num">89</span><h3>Tortelloni con Ricotta e Spinaci</h3><p>Tortellini mit Frischkäse und Spinatfüllung in Butter und Salbei</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item featured" id="mi-pr90"><div class="mi-info"><span class="mi-num">90</span><h3>Lasagne al Forno <span class="badge">Hausgemacht</span></h3><p></p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr91"><div class="mi-info"><span class="mi-num">91</span><h3>Penne al Forno</h3><p>Überbacken mit Schinken in Bolognesesauce</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr92"><div class="mi-info"><span class="mi-num">92</span><h3>Penne con Salmone e Spinaci</h3><p>Mit Lachs und Spinat in Tomatensahnesauce</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-pr93"><div class="mi-info"><span class="mi-num">93</span><h3>Lasagne Desirée</h3><p>Verschiedene Nudelsorten überbacken</p></div><span class="mi-price">14,00 €</span></div>
+          <div class="menu-item" id="mi-pr94"><div class="mi-info"><span class="mi-num">94</span><h3>Penne alla Sarda</h3><p>Mit Pecorinokaese und Salsiccia</p></div><span class="mi-price">10,50 €</span></div>
+          <div class="menu-item" id="mi-pr95"><div class="mi-info"><span class="mi-num">95</span><h3>Riso con Verdura</h3><p>Reis mit Gemüse in Safransauce</p></div><span class="mi-price">13,00 €</span></div>
+          <div class="menu-item" id="mi-pr96"><div class="mi-info"><span class="mi-num">96</span><h3>Riso alla Pescatora</h3><p>Reis mit Meeresfrüchten in Tomatensauce</p></div><span class="mi-price">15,00 €</span></div>
+          <div class="menu-item" id="mi-pr97"><div class="mi-info"><span class="mi-num">97</span><h3>Spaghetti con Broccoli</h3><p>Natur</p></div><span class="mi-price">10,00 €</span></div>
+          <div class="menu-item" id="mi-pr98"><div class="mi-info"><span class="mi-num">98</span><h3>Penne Mare e Monte</h3><p>Mit Champignons, Cocktailtomaten und Krabben</p></div><span class="mi-price">12,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MANZO / VOM RIND ── -->
+    <section class="menu-section" id="manzo">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Manzo</p>
+          <h2 class="section-title">Vom <em>Rind</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Fleischgerichte werden mit Bratkartoffeln und Salat serviert.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-b110"><div class="mi-info"><span class="mi-num">110</span><h3>Bistecca alla Pizzaiola</h3><p>Rumpsteak (200 g) mit Kapern und Oliven in Tomatensauce</p></div><span class="mi-price">23,00 €</span></div>
+          <div class="menu-item" id="mi-b111"><div class="mi-info"><span class="mi-num">111</span><h3>Bistecca con Cipolle</h3><p>Rumpsteak (200 g) mit Zwiebeln</p></div><span class="mi-price">23,00 €</span></div>
+          <div class="menu-item" id="mi-b112"><div class="mi-info"><span class="mi-num">112</span><h3>Bistecca ai Funghi</h3><p>Rumpsteak (200 g) mit frischen Champignons in Rahmsauce</p></div><span class="mi-price">24,00 €</span></div>
+          <div class="menu-item" id="mi-b113"><div class="mi-info"><span class="mi-num">113</span><h3>Bistecca al Pepe Verde</h3><p>Rumpsteak (200 g) mit grüner Pfeffersauce</p></div><span class="mi-price">24,00 €</span></div>
+          <div class="menu-item" id="mi-b114"><div class="mi-info"><span class="mi-num">114</span><h3>Filetto al Pepe Verde</h3><p>Filetsteak (200 g) mit grüner Pfeffersauce</p></div><span class="mi-price">30,00 €</span></div>
+          <div class="menu-item" id="mi-b115"><div class="mi-info"><span class="mi-num">115</span><h3>Filetto ai Funghi</h3><p>Filetsteak (200 g) mit Champignons in Gorgonzolasauce</p></div><span class="mi-price">32,00 €</span></div>
+          <div class="menu-item" id="mi-b116"><div class="mi-info"><span class="mi-num">116</span><h3>Filetto alla Gorgonzola</h3><p>Filetsteak (200 g) mit Gorgonzolasauce</p></div><span class="mi-price">32,00 €</span></div>
+          <div class="menu-item" id="mi-b117"><div class="mi-info"><span class="mi-num">117</span><h3>Bistecca di Manzo</h3><p>Rumpsteak, 200 g</p></div><span class="mi-price">24,00 €</span></div>
+          <div class="menu-item" id="mi-b124"><div class="mi-info"><span class="mi-num">124</span><h3>Bistecca di Manzo</h3><p>Rumpsteak, 300 g</p></div><span class="mi-price">32,00 €</span></div>
+          <div class="menu-item" id="mi-b125"><div class="mi-info"><span class="mi-num">125</span><h3>Filetto di Manzo</h3><p>Filetsteak, 200 g</p></div><span class="mi-price">36,00 €</span></div>
+          <div class="menu-item" id="mi-b126"><div class="mi-info"><span class="mi-num">126</span><h3>Filetto di Manzo</h3><p>Filetsteak, 300 g</p></div><span class="mi-price">36,00 €</span></div>
+          <div class="menu-item featured" id="mi-b128"><div class="mi-info"><span class="mi-num">128</span><h3>Tagliata <span class="badge">Empfohlen</span></h3><p>Rumpsteak 300 g geschnitten auf Rucola mit Cocktailtomaten und Kräutern</p></div><span class="mi-price">34,50 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── VITELLO / VOM KALB ── -->
+    <section class="menu-section alt" id="vitello">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Vitello</p>
+          <h2 class="section-title">Vom <em>Kalb</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Fleischgerichte werden mit Bratkartoffeln und Salat serviert.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-v135"><div class="mi-info"><span class="mi-num">135</span><h3>Scaloppina al Limone</h3><p>Kalbsmedaillons in Zitronensauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v136"><div class="mi-info"><span class="mi-num">136</span><h3>Scaloppina al Vino Bianco</h3><p>Kalbsmedaillons in Weißweinsauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v137"><div class="mi-info"><span class="mi-num">137</span><h3>Scaloppina al Marsala</h3><p>Kalbsmedaillons in Marsalasauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v138"><div class="mi-info"><span class="mi-num">138</span><h3>Scaloppina ai Porcini</h3><p>Kalbsmedaillons mit Steinpilzen in Rahmsauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v1381"><div class="mi-info"><span class="mi-num">—</span><h3>Scaloppina ai Funghi</h3><p>Kalbsmedaillons mit frischen Champignons in Rahmsauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v1382"><div class="mi-info"><span class="mi-num">—</span><h3>Scaloppina al Gorgonzola</h3><p>Kalbsmedaillons mit Gorgonzolasauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-v1383"><div class="mi-info"><span class="mi-num">—</span><h3>Scaloppina ai Porcini</h3><p>Kalbsmedaillons mit Steinpilzen in Rahmsauce</p></div><span class="mi-price">25,00 €</span></div>
+          <div class="menu-item" id="mi-v143"><div class="mi-info"><span class="mi-num">143</span><h3>Fegato Burro e Salvia</h3><p>Kalbsleber in Butter und Salbei</p></div><span class="mi-price">23,00 €</span></div>
+          <div class="menu-item" id="mi-v144"><div class="mi-info"><span class="mi-num">144</span><h3>Fegato alla Veneziana</h3><p>Geschnittenes Kalbsleber mit Reis in Rahmsauce</p></div><span class="mi-price">23,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MAIALE / VOM SCHWEIN ── -->
+    <section class="menu-section" id="maiale">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Maiale</p>
+          <h2 class="section-title">Vom <em>Schwein</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Fleischgerichte werden mit Bratkartoffeln und Salat serviert.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-sw150"><div class="mi-info"><span class="mi-num">150</span><h3>Cotoletta alla Milanese</h3><p>Paniertes Schnitzel Wiener Art</p></div><span class="mi-price">18,00 €</span></div>
+          <div class="menu-item" id="mi-sw151"><div class="mi-info"><span class="mi-num">151</span><h3>Scaloppina alla Cacciatora</h3><p>Schnitzel nach Jägerart, unpaniert</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-sw152"><div class="mi-info"><span class="mi-num">152</span><h3>Cordon Bleu</h3><p>Paniertes Schnitzel mit Schinken-Käse-Füllung</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-sw153"><div class="mi-info"><span class="mi-num">153</span><h3>Saltimbocca alla Romana</h3><p>Medaillons mit Salbei und Schinken in Sahnesauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-sw155"><div class="mi-info"><span class="mi-num">155</span><h3>Piccata Milanese</h3><p>Medaillons in Ei und Parmesankäse</p></div><span class="mi-price">20,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GRIGLIA ── -->
+    <section class="menu-section alt" id="griglia">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Specialità</p>
+          <h2 class="section-title">Alla <em>Griglia</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Fleischgerichte werden mit Bratkartoffeln und Salat serviert.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-gr121"><div class="mi-info"><span class="mi-num">121</span><h3>Bistecca di Pollo</h3><p>Gegrilltes Hähnchenbrustfilet</p></div><span class="mi-price">18,00 €</span></div>
+          <div class="menu-item" id="mi-gr122"><div class="mi-info"><span class="mi-num">122</span><h3>Nodino di Vitello</h3><p>Kalbskotelett</p></div><span class="mi-price">Preis nach Gewicht</span></div>
+          <div class="menu-item" id="mi-gr123"><div class="mi-info"><span class="mi-num">123</span><h3>Bistecca di Vitello</h3><p>Kalbsrückensteak, 200 g</p></div><span class="mi-price">26,00 €</span></div>
+          <div class="menu-item" id="mi-gr139"><div class="mi-info"><span class="mi-num">139</span><h3>Paillard Kalbsschnitzel</h3><p>Natur vom Grill</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-gr140"><div class="mi-info"><span class="mi-num">140</span><h3>Scaloppina al Gorgonzola</h3><p>Kalbsmedaillons mit Gorgonzolasauce</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-gr141"><div class="mi-info"><span class="mi-num">141</span><h3>Scaloppina alla Viennese</h3><p>Wiener Schnitzel</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-gr142"><div class="mi-info"><span class="mi-num">142</span><h3>Scaloppina al Gorgonzola</h3><p>Kalbsmedaillons in Gorgonzolasauce</p></div><span class="mi-price">22,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DAL MARE ── -->
+    <section class="menu-section" id="dalmare">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Dal Mare</p>
+          <h2 class="section-title">Fisch &amp; <em>Meeresfrüchte</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Alle Fische und Meeresfrüchte servieren wir mit einem Beilagensalat.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-dm160"><div class="mi-info"><span class="mi-num">160</span><h3>Sardine Fritte</h3><p>Frittierte Sardinen</p></div><span class="mi-price">18,00 €</span></div>
+          <div class="menu-item" id="mi-dm161"><div class="mi-info"><span class="mi-num">161</span><h3>Calamari Aglio e Olio</h3><p>Calamari in Knoblauch und Öl geschwenkt</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-dm162"><div class="mi-info"><span class="mi-num">162</span><h3>Calamari alla Griglia</h3><p>Gegrillte Calamari</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-dm163"><div class="mi-info"><span class="mi-num">163</span><h3>Calamari Fritti</h3><p>Frittierte Calamari</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-dm164"><div class="mi-info"><span class="mi-num">164</span><h3>Polpi alla Livornese</h3><p>Tintenfische in pikanter Tomatensauce mit Spaghetti</p></div><span class="mi-price">22,00 €</span></div>
+          <div class="menu-item" id="mi-dm165"><div class="mi-info"><span class="mi-num">165</span><h3>Scampi Provinciale</h3><p>Riesengarnelen in Tomaten-Weißweinsauce</p></div><span class="mi-price">29,00 €</span></div>
+          <div class="menu-item" id="mi-dm166"><div class="mi-info"><span class="mi-num">166</span><h3>Salmone Provinciale</h3><p>Lachs in Tomaten-Weißweinsauce</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-dm167"><div class="mi-info"><span class="mi-num">167</span><h3>Scampi alla Griglia</h3><p>Scampi vom Grill</p></div><span class="mi-price">20,00 €</span></div>
+          <div class="menu-item" id="mi-dm168"><div class="mi-info"><span class="mi-num">168</span><h3>Sogliola alla Mugnaia</h3><p>Seezunge nach Müllerin-Art</p></div><span class="mi-price">28,00 €</span></div>
+          <div class="menu-item" id="mi-dm170"><div class="mi-info"><span class="mi-num">170</span><h3>Cozze Miesmuscheln</h3><p>In pikanter Weißwein- oder Tomatensauce</p></div><span class="mi-price">Preis nach Saison</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SUPPEN ── -->
+    <section class="menu-section alt" id="suppen">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Zuppe</p>
+          <h2 class="section-title"><em>Suppen</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-s176"><div class="mi-info"><span class="mi-num">176</span><h3>Minestrone</h3><p>Gemüsesuppe</p></div><span class="mi-price">6,50 €</span></div>
+          <div class="menu-item" id="mi-s177"><div class="mi-info"><span class="mi-num">177</span><h3>Zuppa di Pollo</h3><p>Hühnersuppe</p></div><span class="mi-price">7,00 €</span></div>
+          <div class="menu-item" id="mi-s178"><div class="mi-info"><span class="mi-num">178</span><h3>Stracciatella Romana</h3><p>Eierflaumsuppe mit Parmesan</p></div><span class="mi-price">5,50 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── KINDER ── -->
+    <section class="menu-section" id="kinder">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Per i Bambini</p>
+          <h2 class="section-title"><em>Für Kinder</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-k139"><div class="mi-info"><span class="mi-num">—</span><h3>Kleines Wiener Schnitzel</h3><p>Mit Pommes</p></div><span class="mi-price">13,50 €</span></div>
+          <div class="menu-item" id="mi-k140"><div class="mi-info"><span class="mi-num">—</span><h3>Kleines Schnitzel Wiener Art</h3><p>Mit Pommes</p></div><span class="mi-price">11,50 €</span></div>
+          <div class="menu-item" id="mi-k141"><div class="mi-info"><span class="mi-num">—</span><h3>Kleine Portion Nudeln</h3><p>Mit Tomatensauce oder Bolognesesauce</p></div><span class="mi-price">7,00 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DESSERT ── -->
+    <section class="menu-section alt" id="dessert">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Dolce</p>
+          <h2 class="section-title"><em>Dessert</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+          <p class="menu-note">Zabaione für 2 Personen.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-d175"><div class="mi-info"><span class="mi-num">175</span><h3>Zabaione</h3><p>Für 2 Personen</p></div><span class="mi-price">—</span></div>
+          <div class="menu-item" id="mi-d179"><div class="mi-info"><span class="mi-num">179</span><h3>Gelato</h3><p>Eis: Schokolade, Erdbeere, Vanille</p></div><span class="mi-price">2,00 €</span></div>
+          <div class="menu-item" id="mi-d180"><div class="mi-info"><span class="mi-num">180</span><h3>Zuppa Inglese</h3><p>Biskuitdessert mit Creme und Amarenakirschen</p></div><span class="mi-price">7,00 €</span></div>
+          <div class="menu-item" id="mi-d181"><div class="mi-info"><span class="mi-num">181</span><h3>Crème Brûlée</h3><p></p></div><span class="mi-price">7,50 €</span></div>
+          <div class="menu-item" id="mi-d182"><div class="mi-info"><span class="mi-num">182</span><h3>Tartufo</h3><p></p></div><span class="mi-price">2,50 €</span></div>
+          <div class="menu-item featured" id="mi-d183"><div class="mi-info"><span class="mi-num">183</span><h3>Tiramisù <span class="badge">Hausgemacht</span></h3><p></p></div><span class="mi-price">6,50 €</span></div>
+          <div class="menu-item" id="mi-d184"><div class="mi-info"><span class="mi-num">—</span><h3>Panna Cotta</h3><p></p></div><span class="mi-price">6,50 €</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXTRAS / BEILAGEN ── -->
+    <section class="menu-section" id="extras">
+      <div class="menu-section-inner">
+        <div class="menu-section-header">
+          <p class="section-tag">Contorni</p>
+          <h2 class="section-title"><em>Extras &amp; Beilagen</em></h2>
+          <div class="menu-ornament">✦ ─────── ✦</div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" id="mi-ex-beilagensalat"><div class="mi-info"><h3>Beilagensalat</h3></div><span class="mi-price">3,50 €</span></div>
+          <div class="menu-item" id="mi-ex-pommes"><div class="mi-info"><h3>Pommes</h3></div><span class="mi-price">3,50 €</span></div>
+          <div class="menu-item" id="mi-ex-gemuese"><div class="mi-info"><h3>Gemüse</h3></div><span class="mi-price">4,00 €</span></div>
+          <div class="menu-item" id="mi-ex-spinat"><div class="mi-info"><h3>Spinat</h3></div><span class="mi-price">3,50 €</span></div>
+          <div class="menu-item" id="mi-ex-bratkartoffeln"><div class="mi-info"><h3>Bratkartoffeln</h3></div><span class="mi-price">3,50 €</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-script">Pizzeria</span>
+        <span class="logo-name">Desirée</span>
+        <p>Obergasse 10 · 61348 Bad Homburg<br />Tel: 06172 23524</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Startseite</a>
+        <a href="menu.html">Speisekarte</a>
+        <a href="index.html#kontakt">Kontakt</a>
+        <a href="#impressum">Impressum</a>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2024 Pizzeria Desirée Bad Homburg. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
