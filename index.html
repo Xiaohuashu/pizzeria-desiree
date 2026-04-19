@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muster Restaurant – Musterstadt</title>
+  <meta name="description" content="Original italienische Pizza & Pasta in Musterstadt. Genießen Sie authentische Küche in gemütlicher Atmosphäre." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=IM+Fell+English:ital@0;1&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-script">Pizzeria</span>
+        <span class="logo-name">Muster</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Startseite</a></li>
+        <li><a href="menu.html" class="nav-link">Speisekarte</a></li>
+      </ul>
+      <a href="#kontakt" class="nav-cta" id="reserve-btn">Reservieren</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html" class="mobile-link active">Startseite</a>
+      <a href="menu.html" class="mobile-link">Speisekarte</a>
+      <a href="#ueber-uns" class="mobile-link">Über uns</a>
+      <a href="#kontakt" class="mobile-link">Kontakt</a>
+      <a href="#kontakt" class="mobile-link mobile-cta">Reservieren</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="start">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Benvenuti</p>
+      <h1 class="hero-title">Pizzeria <em>Muster</em></h1>
+      <div class="hero-divider"><span>✦</span></div>
+      <p class="hero-subtitle">Ein Stück Italien in Musterstadt</p>
+      <div class="hero-actions">
+        <a href="menu.html" class="btn btn-gold">Zur Speisekarte</a>
+        <a href="#kontakt" class="btn btn-outline">Tisch reservieren</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">↓</div>
+  </header>
+
+  <!-- ========== RIBBON ========== -->
+  <div class="ribbon">
+    <div class="ribbon-inner">
+      <div class="ribbon-item">
+        <span class="ribbon-icon">📍</span>
+        <div>
+          <strong>Standort</strong>
+          <span>Musterstraße 1, Musterstadt</span>
+        </div>
+      </div>
+      <div class="ribbon-sep">✦</div>
+      <div class="ribbon-item">
+        <span class="ribbon-icon">🕒</span>
+        <div>
+          <strong>Heute geöffnet</strong>
+          <span>11:30 - 14:30 & 17:30 - 23:00</span>
+        </div>
+      </div>
+      <div class="ribbon-sep">✦</div>
+      <div class="ribbon-item">
+        <span class="ribbon-icon">☎</span>
+        <div>
+          <strong>Reservierung</strong>
+          <span><a href="tel:+49617223524">01234 56789</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== ÜBER UNS ========== -->
+  <section class="welcome" id="ueber-uns">
+    <div class="welcome-inner">
+      <div>
+        <span class="section-tag">La Tradizione</span>
+        <h2 class="section-title">Willkommen in unserer <em>Trattoria</em></h2>
+        <div class="welcome-body">
+          <p>Seit vielen Jahren bringen wir den authentischen Geschmack Italiens direkt nach Musterstadt. In unserer gemütlichen Muster Restaurant legen wir größten Wert auf Frische, Qualität und original italienische Rezepte.</p>
+          <p>Ob knusprige Pizza aus dem Steinofen, hausgemachte Pasta oder frische Antipasti – bei uns wird jedes Gericht mit Liebe und Leidenschaft zubereitet.</p>
+        </div>
+        <a href="menu.html" class="btn btn-gold">Menü entdecken</a>
+      </div>
+      <div class="welcome-image-stack">
+        <div class="photo-placeholder large">
+          <div class="placeholder-inner">
+            <span class="ph-icon">🍕</span>
+            <p>Bild: Pizza aus dem Ofen</p>
+          </div>
+        </div>
+        <div class="photo-placeholder small">
+          <div class="placeholder-inner">
+            <span class="ph-icon">🍷</span>
+            <p>Bild: Ambiente</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HIGHLIGHTS ========== -->
+  <section class="highlights">
+    <div class="highlights-inner">
+      <span class="section-tag center">Cucina Autentica</span>
+      <h2 class="section-title center">Unsere <em>Spezialitäten</em></h2>
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="card-icon">🪵</div>
+          <h3>Steinofenpizza</h3>
+          <p>Knuspriger Boden und frische Zutaten, gebacken auf heißem Stein für den perfekten Geschmack.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="card-icon">🍝</div>
+          <h3>Hausgemachte Pasta</h3>
+          <p>Täglich frisch zubereitete Nudelspezialitäten nach traditionellen Familienrezepten.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="card-icon">🥩</div>
+          <h3>Fleisch & Fisch</h3>
+          <p>Ausgewählte Spezialitäten vom Rind und Kalb sowie frischer Fisch vom Grill.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="card-icon">🍰</div>
+          <h3>Dolci</h3>
+          <p>Verführerisches, hausgemachtes Tiramisu und klassische italienische Desserts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FULL BLEED IMAGE ========== -->
+  <section class="full-bleed-image">
+    <div class="full-bleed-overlay">
+      <blockquote class="quote">
+        <span>"</span>Mangia bene, ridi spesso, ama molto.<span>"</span>
+        <cite>Isst gut, lache oft, liebe viel.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="kontakt" id="kontakt">
+    <div class="kontakt-inner">
+      <div>
+        <span class="section-tag">Vi aspettiamo</span>
+        <h2 class="section-title">Besuchen Sie <em>uns</em></h2>
+        <div class="contact-block">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Adresse</strong>
+              <p>Musterstraße 1<br />12345 Musterstadt vor der Höhe</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕒</span>
+            <div>
+              <strong>Öffnungszeiten</strong>
+              <p>Dienstag - Sonntag:<br />11:30 - 14:30 Uhr<br />17:30 - 23:00 Uhr<br /><br /><span class="closed">Montag Ruhetag</span></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">☎</span>
+            <div>
+              <strong>Reservierung & Abholung</strong>
+              <p><a href="tel:+49617223524">01234 56789</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kontakt-map">
+        <a href="https://www.google.com/maps/search/?api=1&query=Pizzeria+Desir%C3%A9e+Bad+Homburg" target="_blank" rel="noopener noreferrer" class="map-fallback" aria-label="Auf Google Maps öffnen">
+          <div class="map-fallback-inner">
+            <span class="map-icon" style="font-size: 3rem; display: block; margin-bottom: 1rem;">🗺️</span>
+            <span style="font-family: var(--font-fancy); font-size: 1.5rem; color: var(--gold);">Standort auf Google Maps ansehen</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-script">Pizzeria</span>
+        <span class="logo-name">Muster</span>
+        <p>Musterstraße 1 · 12345 Musterstadt<br />Tel: 01234 56789</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Startseite</a>
+        <a href="menu.html">Speisekarte</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2026 Muster Restaurant Musterstadt. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <a href="#" id="back-to-top" aria-label="Zurück nach oben">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
